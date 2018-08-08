@@ -1,0 +1,58 @@
+2018-08-07 11:23:55.378  INFO 9468 --- [main] com.example.LoggerTest                   : Starting LoggerTest on DESKTOP-35ROOUC with PID 9468 (started by ccm in D:\qint\springbootdemo)
+2018-08-07 11:23:55.381 DEBUG 9468 --- [main] com.example.LoggerTest                   : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-07 11:23:55.392  INFO 9468 --- [main] com.example.LoggerTest                   : No active profile set, falling back to default profiles: default
+2018-08-07 11:23:55.500  INFO 9468 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4082ba93: startup date [Tue Aug 07 11:23:55 CST 2018]; root of context hierarchy
+2018-08-07 11:24:07.116  INFO 9468 --- [main] figurer$$EnhancerBySpringCGLIB$$49b66849 : UseRegisteredSuffixPatternMatch
+2018-08-07 11:24:07.231  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/getcount],methods=[GET]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.getCount(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-07 11:24:07.234  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest1],methods=[POST]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.jsonTest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-07 11:24:07.236  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest3],methods=[POST]}" onto public java.util.List<java.lang.String> com.com.ccm.test.DemoController.jsonTest3(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-07 11:24:07.237  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest6],methods=[POST]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.jsonTest6(java.lang.String,java.lang.String)
+2018-08-07 11:24:07.239  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/test/show],methods=[POST],produces=[application/json]}" onto public java.lang.String com.com.ccm.test.TestController.show(java.lang.String)
+2018-08-07 11:24:07.243  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.springbootdemo.ApiHomeController.home()
+2018-08-07 11:24:07.250  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.springbootdemo.HelloController.hello()
+2018-08-07 11:24:07.252  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hi],methods=[POST]}" onto public java.lang.String com.springbootdemo.HelloController.hi()
+2018-08-07 11:24:07.255  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-08-07 11:24:07.257  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-08-07 11:24:07.258  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-08-07 11:24:07.272  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-07 11:24:07.276  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-07 11:24:07.693  INFO 9468 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'threadPoolTaskExecutor'
+2018-08-07 11:24:07.905  INFO 9468 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-08-07 11:24:07.928  INFO 9468 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-07 11:24:07.928  INFO 9468 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-08-07 11:24:07.930  INFO 9468 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-08-07 11:24:07.931  INFO 9468 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-07 11:24:07.932  INFO 9468 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-08-07 11:24:07.932  INFO 9468 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-08-07 11:24:07.936  INFO 9468 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4a0f4282
+2018-08-07 11:24:08.025  INFO 9468 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-08-07 11:24:08.571  INFO 9468 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 11:24:08.829  INFO 9468 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@4082ba93: startup date [Tue Aug 07 11:23:55 CST 2018]; root of context hierarchy
+2018-08-07 11:24:09.213  INFO 9468 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 11:24:09.213  INFO 9468 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-07 11:24:09.701  INFO 9468 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-08-07 11:24:09.701  INFO 9468 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-08-07 11:24:09.760  INFO 9468 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-08-07 11:24:09.810  INFO 9468 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-08-07 11:24:10.527  INFO 9468 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [quartzScheduler] in 5 seconds
+2018-08-07 11:24:10.553  INFO 9468 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-07 11:24:10.581  INFO 9468 --- [main] com.example.LoggerTest                   : Started LoggerTest in 16.289 seconds (JVM running for 18.829)
+2018-08-07 11:24:10.943  INFO 9468 --- [main] com.example.LoggerTest                   : name:haha,password:hiahia
+2018-08-07 11:24:10.943 ERROR 9468 --- [main] com.example.LoggerTest                   : err run......................
+2018-08-07 11:24:10.943  WARN 9468 --- [main] com.example.LoggerTest                   : warn run..................
+2018-08-07 11:24:10.944  INFO 9468 --- [main] com.example.LoggerTest                   : info run................
+2018-08-07 11:24:10.944 DEBUG 9468 --- [main] com.example.LoggerTest                   : debug run.................
+2018-08-07 11:24:10.964  INFO 9468 --- [Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4082ba93: startup date [Tue Aug 07 11:23:55 CST 2018]; root of context hierarchy
+2018-08-07 11:24:10.973  INFO 9468 --- [Thread-3] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 2147483647
+2018-08-07 11:24:10.975  INFO 9468 --- [Thread-3] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2018-08-07 11:24:10.976  INFO 9468 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2018-08-07 11:24:10.976  INFO 9468 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2018-08-07 11:24:10.977  INFO 9468 --- [Thread-3] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-08-07 11:24:10.977  INFO 9468 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'threadPoolTaskExecutor'
