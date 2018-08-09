@@ -12,6 +12,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 import java.awt.*;
 import java.net.URI;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @SpringBootApplication
 @EnableScheduling
@@ -50,9 +52,9 @@ public class SpringbootdemoApplication {
 
     }
     //    每分钟启动
-    @Scheduled(cron = "0/5 * * * * ?")
+    @Scheduled(cron = "* 0/5 * * * ?")
     public void timerToNow(){
-//        System.out.println("show now time:" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
+        System.out.println("show now time still alive:" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
     }
 
 }

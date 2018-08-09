@@ -1,0 +1,32 @@
+#project 环境
+app:
+  env : dev
+
+erver:
+  address: 0.0.0.0
+  port: 9000
+# HTTPS (HttpsProperties)
+  https:
+    enabled: false
+    port: 9443
+
+#log
+log4j:
+  logger:
+    org:
+      quartz : DEBUG
+logging:
+  file: bi.log
+  level:
+    com: debug
+
+#datasource
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://mjhospital.chinacloudapp.cn:3306/test?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    password: Ccm12345
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true

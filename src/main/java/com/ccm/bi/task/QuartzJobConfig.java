@@ -22,7 +22,7 @@ public class QuartzJobConfig {
     @Bean
     public CronTriggerFactoryBean job4Quartz1Trigger(@Qualifier("job4Quartz1Job") MethodInvokingJobDetailFactoryBean jobDetail) {
         CronTriggerFactoryBean trigger = new CronTriggerFactoryBean();
-        trigger.setCronExpression("0/10 * * * * ?");
+        trigger.setCronExpression("* 0/5 * * * ?");
         trigger.setJobDetail(jobDetail.getObject());
         trigger.setName("who im I");// trigger的name
         return trigger;
@@ -43,7 +43,7 @@ public class QuartzJobConfig {
     public SimpleTriggerFactoryBean trigger2(@Qualifier("job4Quartz1task1Job") JobDetail jobDetail){
         SimpleTriggerFactoryBean trigger = new SimpleTriggerFactoryBean();
         trigger.setJobDetail(jobDetail);
-        trigger.setRepeatInterval(11000);
+        trigger.setRepeatInterval(110000);
         trigger.setName("同问");
 //        trigger.setRepeatCount(4);
         return trigger;
