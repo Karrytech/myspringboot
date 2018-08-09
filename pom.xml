@@ -113,10 +113,20 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>-->
         <!-- 引入数据库连接池 -->
-        <!--<dependency>
+        <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.1.6</version>
+        </dependency>
+        <!-- ehcache: Cache -->
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+        </dependency>
+        <!-- jackson: JSON -->
+        <!--<dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
         </dependency>-->
 
     </dependencies>
