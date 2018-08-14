@@ -1,4 +1,4 @@
-package com.ccm.bi.task;
+package com.ccm.bi.task.task;
 
 import org.quartz.JobDetail;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -22,7 +22,7 @@ public class QuartzJobConfig {
     @Bean
     public CronTriggerFactoryBean job4Quartz1Trigger(@Qualifier("job4Quartz1Job") MethodInvokingJobDetailFactoryBean jobDetail) {
         CronTriggerFactoryBean trigger = new CronTriggerFactoryBean();
-        trigger.setCronExpression("* 0/5 * * * ?");
+        trigger.setCronExpression("20 0/5 * * * ?");
         trigger.setJobDetail(jobDetail.getObject());
         trigger.setName("who im I");// trigger的name
         return trigger;

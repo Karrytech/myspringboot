@@ -5,6 +5,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
@@ -20,6 +21,16 @@ public class HelloController {
 
         return "hello,this is a springboot demo";
     }
+
+    @GetMapping("iso88591")
+    @ResponseBody
+    public String iso2utf(@RequestParam String test){
+
+        System.out.println(test);
+
+        return test;
+    }
+
     @PostMapping("hi")
     public String hi() {
         String hello = "i want you";

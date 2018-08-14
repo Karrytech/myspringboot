@@ -1,25 +1,27 @@
-2018-08-09 22:59:09.933  INFO 6116 --- [main] com.SpringbootdemoApplication            : Starting SpringbootdemoApplication on CHEN-PC with PID 6116 (C:\Users\dev\IdeaProjects\myspringboot\target\classes started by dev in C:\Users\dev\IdeaProjects\myspringboot)
-2018-08-09 22:59:09.950 DEBUG 6116 --- [main] com.SpringbootdemoApplication            : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
-2018-08-09 22:59:09.967  INFO 6116 --- [main] com.SpringbootdemoApplication            : No active profile set, falling back to default profiles: default
-2018-08-09 22:59:10.081  INFO 6116 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30c93896: startup date [Thu Aug 09 22:59:10 CST 2018]; root of context hierarchy
-2018-08-09 22:59:28.461  INFO 6116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
-2018-08-09 22:59:28.500  INFO 6116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2018-08-09 22:59:28.500  INFO 6116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
-2018-08-09 22:59:28.509  INFO 6116 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\Program Files\Java\jdk1.8.0_161\bin;c:\Program Files\Java\jdk1.8.0_161\jre\bin;d:\Program Files\Git\cmd;D:\Program Files\apache-maven-3.5.4\bin;D:\Program Files\mysql-8.0.12-winx64\bin;.]
-2018-08-09 22:59:28.980  INFO 6116 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2018-08-09 22:59:28.981  INFO 6116 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 18899 ms
-2018-08-09 22:59:29.101  INFO 6116 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
-2018-08-09 22:59:29.109  INFO 6116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
-2018-08-09 22:59:29.109  INFO 6116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-2018-08-09 22:59:29.110  INFO 6116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
-2018-08-09 22:59:29.110  INFO 6116 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
-2018-08-09 22:59:29.157  INFO 6116 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Quartz Initializer Servlet loaded, initializing Scheduler...
-2018-08-09 22:59:29.327  INFO 6116 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2018-08-09 22:59:29.334  INFO 6116 --- [localhost-startStop-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: localhost-startStop-1
-2018-08-09 22:59:29.355  INFO 6116 --- [localhost-startStop-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2018-08-09 22:59:29.355  INFO 6116 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
-2018-08-09 22:59:29.356  INFO 6116 --- [localhost-startStop-1] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2018-08-09 22:59:29.357  INFO 6116 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-08-14 16:23:19.141  INFO 11604 --- [main] com.SpringbootdemoApplication            : Starting SpringbootdemoApplication on DESKTOP-35ROOUC with PID 11604 (D:\qint\ideaworkspace\springbootdemo\target\classes started by ccm in D:\qint\ideaworkspace\springbootdemo)
+2018-08-14 16:23:19.152 DEBUG 11604 --- [main] com.SpringbootdemoApplication            : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-14 16:23:19.157  INFO 11604 --- [main] com.SpringbootdemoApplication            : No active profile set, falling back to default profiles: default
+2018-08-14 16:23:19.245  INFO 11604 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d6764b2: startup date [Tue Aug 14 16:23:19 CST 2018]; root of context hierarchy
+2018-08-14 16:23:23.442  WARN 11604 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2018-08-14 16:23:24.354  INFO 11604 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c2ae4f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-14 16:23:25.088  INFO 11604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2018-08-14 16:23:25.152  INFO 11604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-14 16:23:25.153  INFO 11604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-14 16:23:25.164  INFO 11604 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\ccm\product\11.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.6.0_23\bin;C:\WINDOWS\System32\OpenSSH\;D:\Program Files (x86)\Apache\apache-maven-3.5.4\bin\;C:\Users\ccm\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\ccm\AppData\Local\GitHubDesktop\bin;C:\Users\ccm\AppData\Local\Microsoft\WindowsApps;;.]
+2018-08-14 16:23:25.382  INFO 11604 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-14 16:23:25.383  INFO 11604 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6138 ms
+2018-08-14 16:23:25.504  INFO 11604 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-08-14 16:23:25.510  INFO 11604 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 16:23:25.511  INFO 11604 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 16:23:25.511  INFO 11604 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 16:23:25.511  INFO 11604 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 16:23:25.536  INFO 11604 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Quartz Initializer Servlet loaded, initializing Scheduler...
+2018-08-14 16:23:25.564  INFO 11604 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-08-14 16:23:25.567  INFO 11604 --- [localhost-startStop-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: localhost-startStop-1
+2018-08-14 16:23:25.578  INFO 11604 --- [localhost-startStop-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-14 16:23:25.578  INFO 11604 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-08-14 16:23:25.579  INFO 11604 --- [localhost-startStop-1] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-08-14 16:23:25.581  INFO 11604 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -27,31 +29,43 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-08-09 22:59:29.357  INFO 6116 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
-2018-08-09 22:59:29.357  INFO 6116 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
-2018-08-09 22:59:29.358  INFO 6116 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-08-09 22:59:29.358  INFO 6116 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Scheduler has been started...
-2018-08-09 22:59:29.358  INFO 6116 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
-2018-08-09 22:59:29.936  INFO 6116 --- [main] nfigurer$$EnhancerBySpringCGLIB$$5f4e139 : UseRegisteredSuffixPatternMatch
-2018-08-09 22:59:29.996  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/getcount],methods=[GET]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.getCount(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2018-08-09 22:59:29.997  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest1],methods=[POST]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.jsonTest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2018-08-09 22:59:29.998  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest3],methods=[POST]}" onto public java.util.List<java.lang.String> com.com.ccm.test.DemoController.jsonTest3(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2018-08-09 22:59:29.999  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest6],methods=[POST]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.jsonTest6(java.lang.String,java.lang.String)
-2018-08-09 22:59:30.001  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/test/show],methods=[POST],produces=[application/json]}" onto public java.lang.String com.com.ccm.test.TestController.show(java.lang.String)
-2018-08-09 22:59:30.004  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.springbootdemo.ApiHomeController.home()
-2018-08-09 22:59:30.008  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hi],methods=[POST]}" onto public java.lang.String com.springbootdemo.HelloController.hi()
-2018-08-09 22:59:30.009  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.springbootdemo.HelloController.hello()
-2018-08-09 22:59:30.019  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
-2018-08-09 22:59:30.021  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
-2018-08-09 22:59:30.022  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
-2018-08-09 22:59:30.029  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-2018-08-09 22:59:30.030  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2018-08-09 22:59:30.247  INFO 6116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'threadPoolTaskExecutor'
-2018-08-09 22:59:30.322  INFO 6116 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2018-08-09 22:59:30.323  INFO 6116 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2018-08-09 22:59:30.323  INFO 6116 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
-2018-08-09 22:59:30.323  INFO 6116 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2018-08-09 22:59:30.323  INFO 6116 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-08-14 16:23:25.581  INFO 11604 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-14 16:23:25.581  INFO 11604 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-08-14 16:23:25.581  INFO 11604 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-14 16:23:25.582  INFO 11604 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Scheduler has been started...
+2018-08-14 16:23:25.582  INFO 11604 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2018-08-14 16:23:25.916  INFO 11604 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-08-14 16:23:27.069  INFO 11604 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-14 16:23:27.085  INFO 11604 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-14 16:23:27.183  INFO 11604 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-14 16:23:27.185  INFO 11604 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-14 16:23:27.245  INFO 11604 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-14 16:23:27.455  INFO 11604 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-14 16:23:28.289  INFO 11604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-14 16:23:28.791  WARN 11604 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-14 16:23:28.834  INFO 11604 --- [main] figurer$$EnhancerBySpringCGLIB$$55bcf1b8 : UseRegisteredSuffixPatternMatch
+2018-08-14 16:23:28.881  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/getcount],methods=[GET]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.getCount(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:23:28.882  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest3],methods=[POST]}" onto public java.util.List<java.lang.String> com.com.ccm.test.DemoController.jsonTest3(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:23:28.883  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest6],methods=[POST]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.jsonTest6(java.lang.String,java.lang.String)
+2018-08-14 16:23:28.884  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest1],methods=[POST]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.jsonTest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:23:28.885  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/test/show],methods=[POST],produces=[application/json]}" onto public java.lang.String com.com.ccm.test.TestController.show(java.lang.String)
+2018-08-14 16:23:28.888  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.springbootdemo.ApiHomeController.home()
+2018-08-14 16:23:28.890  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hi],methods=[POST]}" onto public java.lang.String com.springbootdemo.HelloController.hi()
+2018-08-14 16:23:28.891  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.springbootdemo.HelloController.hello()
+2018-08-14 16:23:28.891  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iso88591],methods=[GET]}" onto public java.lang.String com.springbootdemo.HelloController.iso2utf(java.lang.String)
+2018-08-14 16:23:28.895  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-08-14 16:23:28.897  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-08-14 16:23:28.898  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-08-14 16:23:28.902  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 16:23:28.903  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:23:29.123  INFO 11604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'threadPoolTaskExecutor'
+2018-08-14 16:23:29.187  INFO 11604 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-08-14 16:23:29.188  INFO 11604 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-14 16:23:29.188  INFO 11604 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-08-14 16:23:29.189  INFO 11604 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-08-14 16:23:29.189  INFO 11604 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -59,44 +73,238 @@
   Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-08-09 22:59:30.323  INFO 6116 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
-2018-08-09 22:59:30.323  INFO 6116 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
-2018-08-09 22:59:30.326  INFO 6116 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@375dc95c
-2018-08-09 22:59:30.426  INFO 6116 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-2018-08-09 22:59:30.596  INFO 6116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-08-09 22:59:30.917  INFO 6116 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@30c93896: startup date [Thu Aug 09 22:59:10 CST 2018]; root of context hierarchy
-2018-08-09 22:59:31.003  INFO 6116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-08-09 22:59:31.003  INFO 6116 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-08-09 22:59:32.014  INFO 6116 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
-2018-08-09 22:59:32.074  INFO 6116 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
-2018-08-09 22:59:32.076  INFO 6116 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
-2018-08-09 22:59:32.228  INFO 6116 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-2018-08-09 22:59:32.463  INFO 6116 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-2018-08-09 22:59:33.334  INFO 6116 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [quartzScheduler] in 5 seconds
-2018-08-09 22:59:33.345  INFO 6116 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2018-08-09 22:59:33.508  INFO 6116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
-2018-08-09 22:59:33.521  INFO 6116 --- [main] com.SpringbootdemoApplication            : Started SpringbootdemoApplication in 25.112 seconds (JVM running for 27.021)
-2018-08-09 22:59:34.565  INFO 6116 --- [main] com.SpringbootdemoApplication            : 弹出浏览器 - 显示HTTP接口(http)
-2018-08-09 22:59:38.335  INFO 6116 --- [Quartz Scheduler [quartzScheduler]] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now, after delay of 5 seconds
-2018-08-09 22:59:38.337  INFO 6116 --- [Quartz Scheduler [quartzScheduler]] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
-2018-08-09 22:59:38.470  INFO 6116 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 22:59:40.003  INFO 6116 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 22:59:41.295  INFO 6116 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.Task4Quartz1             : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 22:59:50.002  INFO 6116 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 22:59:52.293  INFO 6116 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.Task4Quartz1             : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 22:59:59.012  INFO 6116 --- [http-nio-0.0.0.0-9000-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
-2018-08-09 22:59:59.013  INFO 6116 --- [http-nio-0.0.0.0-9000-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
-2018-08-09 22:59:59.187  INFO 6116 --- [http-nio-0.0.0.0-9000-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 173 ms
-2018-08-09 23:00:00.051  INFO 6116 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:03.292  INFO 6116 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.Task4Quartz1             : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:10.002  INFO 6116 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:14.293  INFO 6116 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.Task4Quartz1             : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:20.001  INFO 6116 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:25.293  INFO 6116 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.Task4Quartz1             : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:30.000  INFO 6116 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:36.292  INFO 6116 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.Task4Quartz1             : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:40.003  INFO 6116 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:47.293  INFO 6116 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.Task4Quartz1             : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:50.003  INFO 6116 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:00:58.296  INFO 6116 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.Task4Quartz1             : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
-2018-08-09 23:01:00.001  INFO 6116 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.Task4Quartz1             : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:23:29.190  INFO 11604 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-08-14 16:23:29.190  INFO 11604 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-08-14 16:23:29.192  INFO 11604 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@28f307ca
+2018-08-14 16:23:29.250  INFO 11604 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-08-14 16:23:29.398  INFO 11604 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:23:29.689  INFO 11604 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2d6764b2: startup date [Tue Aug 14 16:23:19 CST 2018]; root of context hierarchy
+2018-08-14 16:23:29.763  INFO 11604 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:23:29.763  INFO 11604 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:23:30.370  INFO 11604 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-14 16:23:30.372  INFO 11604 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 16:23:30.384  INFO 11604 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-14 16:23:30.390  INFO 11604 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-08-14 16:23:30.391  INFO 11604 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-08-14 16:23:30.416  INFO 11604 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-08-14 16:23:30.463  INFO 11604 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-08-14 16:23:30.686  INFO 11604 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [quartzScheduler] in 5 seconds
+2018-08-14 16:23:30.698  INFO 11604 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-14 16:23:30.746  INFO 11604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2018-08-14 16:23:30.752  INFO 11604 --- [main] com.SpringbootdemoApplication            : Started SpringbootdemoApplication in 12.804 seconds (JVM running for 14.641)
+2018-08-14 16:23:32.029  INFO 11604 --- [main] com.SpringbootdemoApplication            : 弹出浏览器 - 显示HTTP接口(http)
+2018-08-14 16:23:32.856  INFO 11604 --- [http-nio-0.0.0.0-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 16:23:32.856  INFO 11604 --- [http-nio-0.0.0.0-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 16:23:33.039  INFO 11604 --- [http-nio-0.0.0.0-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 182 ms
+2018-08-14 16:23:35.687  INFO 11604 --- [Quartz Scheduler [quartzScheduler]] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now, after delay of 5 seconds
+2018-08-14 16:23:35.689  INFO 11604 --- [Quartz Scheduler [quartzScheduler]] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-08-14 16:25:00.016  INFO 11604 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:01.004  INFO 11604 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:02.001  INFO 11604 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:03.001  INFO 11604 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:04.003  INFO 11604 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:05.004  INFO 11604 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:06.002  INFO 11604 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:07.002  INFO 11604 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:08.007  INFO 11604 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:09.002  INFO 11604 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:10.003  INFO 11604 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:11.002  INFO 11604 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:12.002  INFO 11604 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:13.000  INFO 11604 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:14.002  INFO 11604 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:15.004  INFO 11604 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:16.002  INFO 11604 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:17.000  INFO 11604 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:18.002  INFO 11604 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:19.000  INFO 11604 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:19.169  INFO 11604 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:20.000  INFO 11604 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:21.001  INFO 11604 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:22.004  INFO 11604 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:23.002  INFO 11604 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:24.002  INFO 11604 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:25.000  INFO 11604 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:26.001  INFO 11604 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:27.001  INFO 11604 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:28.001  INFO 11604 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:29.000  INFO 11604 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:30.001  INFO 11604 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:31.000  INFO 11604 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:32.001  INFO 11604 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:33.002  INFO 11604 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:34.001  INFO 11604 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:35.001  INFO 11604 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:36.006  INFO 11604 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:37.000  INFO 11604 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:38.000  INFO 11604 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:39.001  INFO 11604 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:40.000  INFO 11604 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:41.000  INFO 11604 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:42.001  INFO 11604 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:43.001  INFO 11604 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:44.000  INFO 11604 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:45.001  INFO 11604 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:46.006  INFO 11604 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:47.001  INFO 11604 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:48.001  INFO 11604 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:49.001  INFO 11604 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:50.000  INFO 11604 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:51.001  INFO 11604 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:52.001  INFO 11604 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:53.000  INFO 11604 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:54.003  INFO 11604 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:55.001  INFO 11604 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:56.000  INFO 11604 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:57.000  INFO 11604 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:25:58.004  INFO 11604 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:30:00.933  INFO 12664 --- [main] com.SpringbootdemoApplication            : Starting SpringbootdemoApplication on DESKTOP-35ROOUC with PID 12664 (D:\qint\ideaworkspace\springbootdemo\target\classes started by ccm in D:\qint\ideaworkspace\springbootdemo)
+2018-08-14 16:30:00.944 DEBUG 12664 --- [main] com.SpringbootdemoApplication            : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-14 16:30:00.947  INFO 12664 --- [main] com.SpringbootdemoApplication            : No active profile set, falling back to default profiles: default
+2018-08-14 16:30:01.075  INFO 12664 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@39fcbef6: startup date [Tue Aug 14 16:30:01 CST 2018]; root of context hierarchy
+2018-08-14 16:30:05.802  WARN 12664 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2018-08-14 16:30:06.784  INFO 12664 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5a15d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-14 16:30:07.516  INFO 12664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2018-08-14 16:30:07.561  INFO 12664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-08-14 16:30:07.561  INFO 12664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-14 16:30:07.590  INFO 12664 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\ccm\product\11.2.0\client_1;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.6.0_23\bin;C:\WINDOWS\System32\OpenSSH\;D:\Program Files (x86)\Apache\apache-maven-3.5.4\bin\;C:\Users\ccm\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\ccm\AppData\Local\GitHubDesktop\bin;C:\Users\ccm\AppData\Local\Microsoft\WindowsApps;;.]
+2018-08-14 16:30:07.833  INFO 12664 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-14 16:30:07.833  INFO 12664 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6758 ms
+2018-08-14 16:30:07.940  INFO 12664 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-08-14 16:30:07.946  INFO 12664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 16:30:07.947  INFO 12664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 16:30:07.947  INFO 12664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 16:30:07.947  INFO 12664 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 16:30:07.978  INFO 12664 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Quartz Initializer Servlet loaded, initializing Scheduler...
+2018-08-14 16:30:08.008  INFO 12664 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-08-14 16:30:08.011  INFO 12664 --- [localhost-startStop-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: localhost-startStop-1
+2018-08-14 16:30:08.024  INFO 12664 --- [localhost-startStop-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-14 16:30:08.024  INFO 12664 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-08-14 16:30:08.025  INFO 12664 --- [localhost-startStop-1] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-08-14 16:30:08.026  INFO 12664 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-14 16:30:08.027  INFO 12664 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-14 16:30:08.027  INFO 12664 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-08-14 16:30:08.027  INFO 12664 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-14 16:30:08.028  INFO 12664 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Scheduler has been started...
+2018-08-14 16:30:08.028  INFO 12664 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2018-08-14 16:30:08.530  INFO 12664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2018-08-14 16:30:09.719  INFO 12664 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-14 16:30:09.759  INFO 12664 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-14 16:30:09.900  INFO 12664 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-14 16:30:09.903  INFO 12664 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-08-14 16:30:10.013  INFO 12664 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-14 16:30:10.253  INFO 12664 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-08-14 16:30:11.249  INFO 12664 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-14 16:30:11.737  WARN 12664 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-14 16:30:11.778  INFO 12664 --- [main] figurer$$EnhancerBySpringCGLIB$$ea67ae1f : UseRegisteredSuffixPatternMatch
+2018-08-14 16:30:11.823  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/getcount],methods=[GET]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.getCount(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:30:11.825  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest6],methods=[POST]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.jsonTest6(java.lang.String,java.lang.String)
+2018-08-14 16:30:11.826  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest1],methods=[POST]}" onto public org.springframework.ui.ModelMap com.com.ccm.test.DemoController.jsonTest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:30:11.826  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/jsonTest3],methods=[POST]}" onto public java.util.List<java.lang.String> com.com.ccm.test.DemoController.jsonTest3(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:30:11.828  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/test/show],methods=[POST],produces=[application/json]}" onto public java.lang.String com.com.ccm.test.TestController.show(java.lang.String)
+2018-08-14 16:30:11.831  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.lang.Void> com.springbootdemo.ApiHomeController.home()
+2018-08-14 16:30:11.834  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hi],methods=[POST]}" onto public java.lang.String com.springbootdemo.HelloController.hi()
+2018-08-14 16:30:11.834  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.springbootdemo.HelloController.hello()
+2018-08-14 16:30:11.835  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iso88591],methods=[GET]}" onto public java.lang.String com.springbootdemo.HelloController.iso2utf(java.lang.String)
+2018-08-14 16:30:11.841  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-08-14 16:30:11.842  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-08-14 16:30:11.844  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-08-14 16:30:11.850  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 16:30:11.850  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:30:12.070  INFO 12664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'threadPoolTaskExecutor'
+2018-08-14 16:30:12.135  INFO 12664 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-08-14 16:30:12.135  INFO 12664 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-08-14 16:30:12.136  INFO 12664 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-08-14 16:30:12.136  INFO 12664 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-08-14 16:30:12.136  INFO 12664 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.springframework.scheduling.quartz.LocalTaskExecutorThreadPool' - with -1 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-08-14 16:30:12.136  INFO 12664 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-08-14 16:30:12.136  INFO 12664 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-08-14 16:30:12.138  INFO 12664 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@364bbba9
+2018-08-14 16:30:12.194  INFO 12664 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-08-14 16:30:12.314  INFO 12664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:30:12.609  INFO 12664 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@39fcbef6: startup date [Tue Aug 14 16:30:01 CST 2018]; root of context hierarchy
+2018-08-14 16:30:12.682  INFO 12664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:30:12.682  INFO 12664 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:30:13.314  INFO 12664 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-14 16:30:13.317  INFO 12664 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 16:30:13.326  INFO 12664 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2018-08-14 16:30:13.332  INFO 12664 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-08-14 16:30:13.333  INFO 12664 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-08-14 16:30:13.358  INFO 12664 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-08-14 16:30:13.412  INFO 12664 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-08-14 16:30:13.649  INFO 12664 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Will start Quartz Scheduler [quartzScheduler] in 5 seconds
+2018-08-14 16:30:13.662  INFO 12664 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-08-14 16:30:13.710  INFO 12664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2018-08-14 16:30:13.717  INFO 12664 --- [main] com.SpringbootdemoApplication            : Started SpringbootdemoApplication in 13.927 seconds (JVM running for 16.487)
+2018-08-14 16:30:14.078  INFO 12664 --- [main] com.SpringbootdemoApplication            : 弹出浏览器 - 显示HTTP接口(http)
+2018-08-14 16:30:15.685  INFO 12664 --- [http-nio-0.0.0.0-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 16:30:15.686  INFO 12664 --- [http-nio-0.0.0.0-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 16:30:15.730  INFO 12664 --- [http-nio-0.0.0.0-9000-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 44 ms
+2018-08-14 16:30:18.652  INFO 12664 --- [Quartz Scheduler [quartzScheduler]] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now, after delay of 5 seconds
+2018-08-14 16:30:18.653  INFO 12664 --- [Quartz Scheduler [quartzScheduler]] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-08-14 16:30:20.015  INFO 12664 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:32:02.121  INFO 12664 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:33:52.119  INFO 12664 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:35:20.002  INFO 12664 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:35:42.119  INFO 12664 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:37:32.120  INFO 12664 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:39:22.120  INFO 12664 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:40:20.002  INFO 12664 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:41:12.119  INFO 12664 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:43:02.119  INFO 12664 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:44:52.118  INFO 12664 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:45:20.001  INFO 12664 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:46:42.119  INFO 12664 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:48:32.120  INFO 12664 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:50:20.001  INFO 12664 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:50:22.119  INFO 12664 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:52:12.120  INFO 12664 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:54:02.118  INFO 12664 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:55:20.006  INFO 12664 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:55:52.118  INFO 12664 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:57:42.120  INFO 12664 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 16:59:32.121  INFO 12664 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:00:20.003  INFO 12664 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:01:22.119  INFO 12664 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:03:12.118  INFO 12664 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:05:02.119  INFO 12664 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:05:20.003  INFO 12664 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:06:52.118  INFO 12664 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:08:42.119  INFO 12664 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:10:20.000  INFO 12664 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:10:32.119  INFO 12664 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:12:22.119  INFO 12664 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:14:12.120  INFO 12664 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:15:20.002  INFO 12664 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:16:02.118  INFO 12664 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:17:52.119  INFO 12664 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:19:42.119  INFO 12664 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:20:20.000  INFO 12664 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:21:32.118  INFO 12664 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:23:22.119  INFO 12664 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:25:12.119  INFO 12664 --- [threadPoolTaskExecutor-1] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:25:20.001  INFO 12664 --- [threadPoolTaskExecutor-2] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:27:02.125  INFO 12664 --- [threadPoolTaskExecutor-3] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:28:52.119  INFO 12664 --- [threadPoolTaskExecutor-4] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:30:20.015  INFO 12664 --- [threadPoolTaskExecutor-5] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:30:42.124  INFO 12664 --- [threadPoolTaskExecutor-6] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:32:32.119  INFO 12664 --- [threadPoolTaskExecutor-7] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:34:22.119  INFO 12664 --- [threadPoolTaskExecutor-8] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:35:20.009  INFO 12664 --- [threadPoolTaskExecutor-9] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
+2018-08-14 17:36:12.119  INFO 12664 --- [threadPoolTaskExecutor-10] com.ccm.bi.task.task.Task4Quartz1        : 定时任务----timeTask1------开启。。。。。。。。。。。。。。。。。。。。。。。。。。。
