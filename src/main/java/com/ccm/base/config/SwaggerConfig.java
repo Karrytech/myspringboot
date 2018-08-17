@@ -1,4 +1,4 @@
-package com.ccm.autoconfig;
+package com.ccm.base.config;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.ccm.autoconfig;
+package com.ccm.base.config;
 
 import com.ccm.base.properties.EnvProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

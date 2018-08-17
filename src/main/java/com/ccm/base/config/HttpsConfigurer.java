@@ -1,4 +1,4 @@
-package com.ccm.autoconfig;
+package com.ccm.base.config;
 
 import com.ccm.base.properties.HttpsProperties;
 import org.apache.catalina.connector.Connector;

@@ -2,10 +2,10 @@
 app:
   env : dev
 
-erver:
+server:
   address: 0.0.0.0
-  port: 9000
-# HTTPS (HttpsProperties)
+  port: 9001
+  # HTTPS (HttpsProperties)
   https:
     enabled: false
     port: 9443

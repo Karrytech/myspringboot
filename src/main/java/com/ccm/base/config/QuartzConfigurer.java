@@ -1,4 +1,4 @@
-package com.ccm.autoconfig;
+package com.ccm.base.config;
 
 import org.quartz.Trigger;
 import org.quartz.ee.servlet.QuartzInitializerListener;

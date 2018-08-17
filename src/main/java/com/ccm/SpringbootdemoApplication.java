@@ -1,4 +1,4 @@
-package com;
+package com.ccm;
 
 import org.apache.http.client.utils.URIBuilder;
 import org.slf4j.Logger;
