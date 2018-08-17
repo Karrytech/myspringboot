@@ -1,6 +1,6 @@
 package com.ccm.bi.core.base.controller;
 
-import com.ccm.bi.core.base.tips.SuccessTip;
+import com.ccm.base.tips.SuccessTip;
 
 /**
  * @Auther: Cassidy

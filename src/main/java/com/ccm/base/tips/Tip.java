@@ -1,4 +1,4 @@
-package com.ccm.bi.core.base.tips;
+package com.ccm.base.tips;
 
 
 /**

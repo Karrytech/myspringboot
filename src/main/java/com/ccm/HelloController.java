@@ -1,5 +1,5 @@
 
-package com.springbootdemo;
+package com.ccm;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;

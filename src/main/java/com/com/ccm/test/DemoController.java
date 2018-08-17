@@ -1,5 +1,6 @@
 package com.com.ccm.test;
 
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +17,7 @@ import java.util.List;
  * DemoController
  * 
  */
+@Api
 @RestController
 @RequestMapping(value = "/demo")
 public class DemoController {
