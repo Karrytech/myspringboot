@@ -52,7 +52,7 @@ public class SpringbootdemoApplication {
 
     }
     //    每分钟启动
-    @Scheduled(cron = "* 0/5 * * * ?")
+    @Scheduled(cron = "* 0/40 * * * ?")
     public void timerToNow(){
         System.out.println("show now time still alive:" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
     }

@@ -18,6 +18,7 @@ public class HelloController {
         String hello = "i want you";
         System.out.println(hello);
 
+        int i = 12/0;
 
         return "hello,this is a springboot demo";
     }
