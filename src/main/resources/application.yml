@@ -24,12 +24,19 @@ logging:
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://42.159.93.139:3306/dtmjtest?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+#    url: jdbc:mysql://42.159.93.139:3306/dtmjtest?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+    url: jdbc:mysql://42.159.93.139:3306/test?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
     password: root
     username: root
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    database-platform: com.ccm.base.config.MySQL5DialectUTF8
+    database: mysql
+
 #mybatis
 mybatis-plus:
   mapper-locations: classpath*:/mapper/**Mapper.xml

@@ -1,4 +1,4 @@
-package com.ccm.util;
+package com.ccm.base.utils;
 
 import java.io.Serializable;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.ccm.util;
+package com.ccm.base.utils;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
