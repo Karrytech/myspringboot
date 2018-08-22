@@ -43,7 +43,7 @@ public class QuartzJobConfig {
     public SimpleTriggerFactoryBean trigger2(@Qualifier("job4Quartz1task1Job") JobDetail jobDetail){
         SimpleTriggerFactoryBean trigger = new SimpleTriggerFactoryBean();
         trigger.setJobDetail(jobDetail);
-        trigger.setRepeatInterval(1100000);
+        trigger.setRepeatInterval(3600000);
         trigger.setName("同问");
 //        trigger.setRepeatCount(4);
         return trigger;

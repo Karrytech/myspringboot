@@ -17,7 +17,7 @@ public class Task4Quartz1{
 		logger.info("定时任务----task---开启。。。。。。。。。。。。。。。。。。。。。。。。。。。");
 		try {
 			//URI指定网页的地址
-			Desktop.getDesktop().browse(new URI("https://blog.csdn.net/weixin_42156742/article/details/81383628"));
+			Desktop.getDesktop().browse(new URI("https://blog.csdn.net/weixin_42156742/article/details/81703867"));
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 		}

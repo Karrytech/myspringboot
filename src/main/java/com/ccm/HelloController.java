@@ -17,27 +17,22 @@ public class HelloController {
     public String hello() {
         String hello = "i want you";
         System.out.println(hello);
-
-        int i = 12/0;
-
+//        int i = 12/0;
         return "hello,this is a springboot demo";
     }
 
     @GetMapping("iso88591")
     @ResponseBody
     public String iso2utf(@RequestParam String test){
-
         System.out.println(test);
-
         return test;
     }
 
-    @PostMapping("hi")
+    @PostMapping("/hi")
+    @ResponseBody
     public String hi() {
         String hello = "i want you";
         System.out.println(hello);
-
-
         return "hello,this is a springboot demo";
     }
 }

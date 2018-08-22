@@ -34,7 +34,7 @@ public class SpringbootdemoApplication {
         if (Desktop.isDesktopSupported()) {
             try {
                 //URI指定网页的地址
-                Desktop.getDesktop().browse(new URI("https://blog.csdn.net/weixin_42156742/article/details/81383628"));
+                Desktop.getDesktop().browse(new URI("https://blog.csdn.net/weixin_42156742/article/details/81703867"));
             } catch (Exception e) {
                 LOGGER.info(e.getMessage());
             }
@@ -52,7 +52,7 @@ public class SpringbootdemoApplication {
 
     }
     //    每分钟启动
-    @Scheduled(cron = "* 0/40 * * * ?")
+    @Scheduled(cron = "0 0/40 * * * ?")
     public void timerToNow(){
         System.out.println("show now time still alive:" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
     }
