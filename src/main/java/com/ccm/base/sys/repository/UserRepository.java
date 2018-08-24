@@ -1,4 +1,4 @@
-package com.ccm.base.sys.dao;
+package com.ccm.base.sys.repository;
 
 import com.ccm.base.sys.po.User;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -9,5 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @Date: 2018/8/21 11:15
  * @Description:
  */
-public interface UserDao extends JpaRepository<User, Integer> {
+public interface UserRepository extends JpaRepository<User, Integer> {
 }

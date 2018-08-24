@@ -1,4 +1,4 @@
-package com.ccm.base.sys.dao;
+package com.ccm.base.sys.repository;
 
 import com.ccm.base.sys.po.DtmjUser;
 import org.junit.Test;
@@ -17,16 +17,16 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DtmjUserDaoTest {
+public class DtmjUserRepositoryTest {
 
     Logger log = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private DtmjUserDao dtmjUserDao;
+    private DtmjUserRepository dtmjUserRepository;
 
     @Test
     public void findAllTest(){
-        DtmjUser user = dtmjUserDao.findAll().get(0);
+        DtmjUser user = dtmjUserRepository.findAll().get(0);
         log.info(user.toString());
     }
 
@@ -36,7 +36,7 @@ public class DtmjUserDaoTest {
         user.setCardNo("hahah");
         user.setIdNo("asdf");
         user.setPersonName("我是第一个user");
-        dtmjUserDao.save(user);
+        dtmjUserRepository.save(user);
 
     }
 

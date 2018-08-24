@@ -1,4 +1,4 @@
-package com.ccm.base.sys.dao;
+package com.ccm.base.sys.repository;
 
 import com.ccm.base.sys.po.User;
 import org.junit.Assert;
@@ -18,33 +18,33 @@ import java.sql.Timestamp;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class UserDaoTest {
+public class UserRepositoryTest {
 
     @Autowired
-    UserDao userDao;
+    UserRepository userRepository;
 
     @Test
     public void saveUserTest(){
         User user = new User();
         user.setName("a user");
         user.setCreatedTime(new Timestamp(System.currentTimeMillis()));
-        userDao.save(user);
+        userRepository.save(user);
     }
 
     @Test
     public void updateUserTest(){
-        User user = userDao.findById(10).orElse(null);
+        User user = userRepository.findById(10).orElse(null);
 
         Assert.assertNotNull(user);
 
         user.setName("what`s my name--");
 
-        userDao.save(user);
+        userRepository.save(user);
     }
 
     @Test
     public void findUser(){
-        User user = userDao.findById(2).orElse(null);
+        User user = userRepository.findById(2).orElse(null);
         System.out.println(user.toString());
     }
 }

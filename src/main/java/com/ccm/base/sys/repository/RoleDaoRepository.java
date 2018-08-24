@@ -1,4 +1,4 @@
-package com.ccm.base.sys.dao;
+package com.ccm.base.sys.repository;
 
 import com.ccm.base.sys.po.Role;
 import org.springframework.data.repository.CrudRepository;
@@ -9,5 +9,5 @@ import org.springframework.data.repository.CrudRepository;
  * @Date: 2018/8/21 15:04
  * @Description:
  */
-public interface RoleDao extends CrudRepository<Role, Integer> {
+public interface RoleDaoRepository extends CrudRepository<Role, Integer> {
 }

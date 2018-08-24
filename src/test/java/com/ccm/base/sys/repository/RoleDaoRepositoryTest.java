@@ -1,10 +1,8 @@
-package com.ccm.base.sys.dao;
+package com.ccm.base.sys.repository;
 
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import static org.junit.Assert.*;
 
 /**
  * @Auther: Cassidy ccm
@@ -14,6 +12,6 @@ import static org.junit.Assert.*;
  */
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class RoleDaoTest {
+public class RoleDaoRepositoryTest {
 
 }

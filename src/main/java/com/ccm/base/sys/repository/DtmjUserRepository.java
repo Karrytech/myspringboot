@@ -1,4 +1,4 @@
-package com.ccm.base.sys.dao;
+package com.ccm.base.sys.repository;
 
 import com.ccm.base.sys.po.DtmjUser;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -9,5 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @Date: 2018/8/21 09:25
  * @Description:
  */
-public interface DtmjUserDao extends JpaRepository<DtmjUser,String> {
+public interface DtmjUserRepository extends JpaRepository<DtmjUser,String> {
 }
