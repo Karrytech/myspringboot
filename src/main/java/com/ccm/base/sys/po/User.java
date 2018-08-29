@@ -13,7 +13,9 @@ import java.sql.Timestamp;
  */
 @Entity
 @DynamicUpdate
-public class User {
+public class User extends BasePO {
+
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -26,9 +26,13 @@ public class UserMapperTest {
     @Test
 //    @Rollback
     public void findByName() {
-        userMapper.insert("AAA", 20);
+//        userMapper.insert("AAA", 20);
         User u = userMapper.findByName("AAA");
         Assert.assertEquals(20, u.getAge().intValue());
+        System.out.println(u.toString());
+        User u2 = userMapper.findByName("AAA");
+        Assert.assertEquals(20, u2.getAge().intValue());
+        System.out.println(u2.toString());
     }
 
     @Test

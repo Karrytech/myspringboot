@@ -46,5 +46,7 @@ public class UserRepositoryTest {
     public void findUser(){
         User user = userRepository.findById(2).orElse(null);
         System.out.println(user.toString());
+        User user2 = userRepository.findById(2).orElse(null);
+        System.out.println(user2.toString());
     }
 }
