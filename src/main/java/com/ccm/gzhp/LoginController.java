@@ -1,8 +1,12 @@
 package com.ccm.gzhp;
 
-import com.ccm.gzhp.core.aop.BizException;
+import com.ccm.base.sys.po.User;
+import com.ccm.bi.core.base.exception.BizException;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -48,6 +52,12 @@ public class LoginController {
             throw new BizException("密码不可为空");
         }
 
+        Subject subject = SecurityUtils.getSubject();
+        UsernamePasswordToken token = new UsernamePasswordToken(username,password);
+        subject.login(token);
+
+        User user = (User) subject.getPrincipals().getPrimaryPrincipal();
+
         return "redirect:index";
     }
 
@@ -55,13 +65,17 @@ public class LoginController {
     @GetMapping("/logout")
     public String logOut(HttpServletRequest request,HttpServletResponse response){
 
+        SecurityUtils.getSubject().logout();
+
         Cookie[] cookies = request.getCookies();
-        for (Cookie cookie : cookies) {
-            Cookie temp = new Cookie(cookie.getName(), "");
-            temp.setMaxAge(0);
-            response.addCookie(temp);
+        if (cookies!=null){
+            for (Cookie cookie : cookies) {
+                Cookie temp = new Cookie(cookie.getName(), "");
+                temp.setMaxAge(0);
+                response.addCookie(temp);
+            }
         }
-        return "redirect: login.html";
+        return "redirect:login.html";
     }
 
 }
