@@ -1,7 +1,21 @@
 package com.ccm.gzhp;
 
+import com.ccm.base.sys.beans.UserVO;
+import com.ccm.bi.core.base.exception.BizException;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 /**
  * @Auther: Cassidy ccm
@@ -14,14 +28,14 @@ import org.springframework.stereotype.Controller;
 public class LoginController {
 
 
-    /*@ApiOperation("登录页面")
+    @ApiOperation("登录页面")
     @GetMapping("/login")
     public String login(){
         return "/login.html";
     }
 
     @ApiOperation("应用首页")
-    @GetMapping("/index")
+    @GetMapping({"/index","/"})
     public String index(HttpServletRequest request, Model model){
 
         UserVO user = (UserVO) request.getSession().getAttribute("user");
@@ -80,6 +94,6 @@ public class LoginController {
             }
         }
         return "redirect:login";
-    }*/
+    }
 
 }

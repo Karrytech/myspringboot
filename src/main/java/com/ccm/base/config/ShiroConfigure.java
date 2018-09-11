@@ -25,15 +25,17 @@ public class ShiroConfigure {
         shiroFilterFactoryBean.setSecurityManager(securityManager);
 
         shiroFilterFactoryBean.setLoginUrl("/login");//登录连接
-        shiroFilterFactoryBean.setSuccessUrl("/index");//登录成功后跳转的连接
-        shiroFilterFactoryBean.setUnauthorizedUrl("/pages/403"); //未授权跳转页面
+//        shiroFilterFactoryBean.setSuccessUrl("/index");//登录成功后跳转的连接
+        shiroFilterFactoryBean.setUnauthorizedUrl("/403.html"); //未授权跳转页面
 
         //定义shiro过滤链
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
         //配置退出
-        filterChainDefinitionMap.put("/logout", "logout"); //配置退出
+//        filterChainDefinitionMap.put("/logout", "logout"); //配置退出
         // <!-- 过滤链定义，从上向下顺序执行，/**放在最下面，过滤链的最后一关，表示除去以上各环节，剩余url的都需要验证 -->
         // <!-- authc:所有url都必须认证通过才可以访问; anon:所有url都都可以匿名访问-->
+
+        filterChainDefinitionMap.put("/swagger-ui.html","anon");
         filterChainDefinitionMap.put("/js/**","anon");
         filterChainDefinitionMap.put("/img/**","anon");
         filterChainDefinitionMap.put("/css/**","anon");

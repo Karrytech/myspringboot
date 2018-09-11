@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Api
 public class ApiHomeController {
 	// 首页
-	@GetMapping("/")
+	@GetMapping("/api")
 	@ApiOperation(value = "首页", notes = "跳转到/swagger-ui.html")
 	public ResponseEntity<Void> home() {
 		return ResponseEntity.status(HttpStatus.PERMANENT_REDIRECT).header("Location", "/swagger-ui.html").build();
