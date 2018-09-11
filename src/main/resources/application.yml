@@ -1,6 +1,8 @@
 #project 环境
 app:
   env : dev
+  username : admin
+  password : admin
 
 server:
   address: 0.0.0.0
@@ -36,8 +38,8 @@ spring:
       ddl-auto: update
     database-platform: com.ccm.base.config.MySQL5DialectUTF8
     database: mysql
-    mvc:
-    #    static-path-pattern: /static/**
+  mvc:
+#        static-path-pattern: /static/**
     static-locations : classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
     view:
       prefix: templates

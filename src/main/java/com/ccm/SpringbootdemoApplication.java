@@ -1,19 +1,11 @@
 package com.ccm;
 
-import org.apache.http.client.utils.URIBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.web.ServerProperties;
 import org.springframework.context.ApplicationContext;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import org.springframework.scheduling.annotation.Scheduled;
-
-import java.awt.*;
-import java.net.URI;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 @SpringBootApplication
 @EnableScheduling
@@ -26,12 +18,12 @@ public class SpringbootdemoApplication {
 
         ApplicationContext context =  SpringApplication.run(SpringbootdemoApplication.class, args);
 
-        ServerProperties serverProperties = context.getBean(ServerProperties.class);
+        /*ServerProperties serverProperties = context.getBean(ServerProperties.class);
 
 
         System.setProperty("java.awt.headless", "false");
-
-        if (Desktop.isDesktopSupported()) {
+*/
+        /*if (Desktop.isDesktopSupported()) {
             try {
                 //URI指定网页的地址
                 Desktop.getDesktop().browse(new URI("https://blog.csdn.net/weixin_42156742/article/details/81703867"));
@@ -48,13 +40,13 @@ public class SpringbootdemoApplication {
             } catch (Exception e) {
                 LOGGER.info(e.getMessage());
             }
-        }
+        }*/
 
     }
     //    每分钟启动
-    @Scheduled(cron = "0 0/40 * * * ?")
+    /*@Scheduled(cron = "0 0/40 * * * ?")
     public void timerToNow(){
         System.out.println("show now time still alive:" + new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
-    }
+    }*/
 
 }
