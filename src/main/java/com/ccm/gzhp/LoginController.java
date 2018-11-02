@@ -9,6 +9,7 @@ import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.subject.Subject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
 
 /**
  * @Auther: Cassidy ccm
@@ -46,8 +48,8 @@ public class LoginController {
 
     @ApiOperation("登录操作")
     @PostMapping("/login")
-    public String loginValidate(@RequestParam(name ="username") String username,
-                                @RequestParam(name = "password") String password,
+    public String loginValidate(@RequestParam(name ="username")@Valid String username,
+                                @RequestParam(name = "password")@Validated String password,
                                 HttpServletResponse response,
                                 HttpServletRequest request){
         if (username == null) {
